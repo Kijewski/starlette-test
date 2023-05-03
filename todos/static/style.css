@@ -1,0 +1,47 @@
+html {
+    background-color: #1f1f1f;
+    color: #efefef;
+    margin: 0.5em;
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.6em;
+    padding: 1em 2em;
+    width: 60em;
+    max-width: 100%;
+    background-color: #efefef;
+    color: #1f1f1f;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.2rem;
+    line-height: 1.4em;
+    margin-top: 0;
+}
+
+p {
+    hyphens: auto;
+}
+
+a:link, a:visited {
+    color: #0000cc;
+    text-underline-offset: 0.3em;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1rem;
+    text-decoration-color: currentColor;
+    text-decoration-skip-ink: none;
+    text-decoration-style: solid;
+}
+
+a:active, a:hover, a:focus {
+    color: #6666cc;
+}
